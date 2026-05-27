@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_skip_previous" />
+    <drawable name="ic_skip_next" />
+    <drawable name="ic_play" />
+    <drawable name="ic_pause" />
+    <drawable name="ic_music_note" />
+</resources>

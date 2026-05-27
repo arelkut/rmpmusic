@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:paddingTop="48dp">
+
+        <!-- Profile Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivAvatar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_person"
+                app:civ_border_color="@color/purple_primary"
+                app:civ_border_width="2dp"
+                android:layout_marginEnd="16dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvDisplayName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Адель Краснов"
+                    android:textColor="@color/text_primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@adelkrasnov"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp"
+                    android:layout_marginTop="2dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="4dp">
+
+                    <TextView
+                        android:id="@+id/tvTrackCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5813 треков"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  •  "
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvPlaylistCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12 плейлистов"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Edit Profile Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEditProfile"
+            style="@style/Widget.MusicApp.Button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/edit_profile"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Statistics Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/statistics"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Stats Grid (2x2) -->
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:useDefaultMargins="false"
+            android:layout_marginBottom="24dp">
+
+            <!-- Stat 1: Listen time -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/stat_card_1_start">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_history"
+                        app:tint="@color/purple_primary"
+                        android:layout_marginBottom="6dp"
+                        android:contentDescription="Listen time"/>
+
+                    <TextView
+                        android:id="@+id/tvListenHours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7027ч"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/listen_time"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="11sp"
+                        android:layout_marginTop="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Stat 2: Tracks played -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="6dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/stat_card_2_start">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_music_note"
+                        app:tint="#FF69B4"
+                        android:layout_marginBottom="6dp"
+                        android:contentDescription="Tracks"/>
+
+                    <TextView
+                        android:id="@+id/tvTracksPlayed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="100347"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tracks_played"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="11sp"
+                        android:layout_marginTop="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Stat 3: Favorite tracks -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="6dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/stat_card_3_start">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_heart"
+                        app:tint="#6060FF"
+                        android:layout_marginBottom="6dp"
+                        android:contentDescription="Favorites"/>
+
+                    <TextView
+                        android:id="@+id/tvFavoriteCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5813"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/favorite_tracks"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="11sp"
+                        android:layout_marginTop="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Stat 4: Top % -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="6dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/stat_card_4_start">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_award"
+                        app:tint="#00C851"
+                        android:layout_marginBottom="6dp"
+                        android:contentDescription="Award"/>
+
+                    <TextView
+                        android:id="@+id/tvTopPercent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Top 2%"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/top_listeners"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="11sp"
+                        android:layout_marginTop="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <!-- Favorite Genre -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favorite_genre"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:cardBackgroundColor="#1A0A2E"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="28dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvFavoriteGenre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rap"
+                        android:textColor="@color/text_primary"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvGenrePercent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="78% прослушиваний"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp"
+                        android:layout_marginTop="2dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_music_note"
+                    app:tint="@color/purple_primary"
+                    android:contentDescription="Genre icon"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Settings Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <!-- General Settings -->
+        <LinearLayout
+            android:id="@+id/rowGeneralSettings"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_card_dark"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                android:src="@drawable/ic_settings" app:tint="@color/text_secondary"
+                android:layout_marginEnd="12dp" android:contentDescription="Settings"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/general_settings" android:textColor="@color/text_primary"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Account -->
+        <LinearLayout
+            android:id="@+id/rowAccount"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_card_dark"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                android:src="@drawable/ic_person" app:tint="@color/text_secondary"
+                android:layout_marginEnd="12dp" android:contentDescription="Account"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/account" android:textColor="@color/text_primary"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Audio Quality -->
+        <LinearLayout
+            android:id="@+id/rowAudioQuality"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_card_dark"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                android:src="@drawable/ic_music_note" app:tint="@color/text_secondary"
+                android:layout_marginEnd="12dp" android:contentDescription="Audio"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/audio_quality" android:textColor="@color/text_primary"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

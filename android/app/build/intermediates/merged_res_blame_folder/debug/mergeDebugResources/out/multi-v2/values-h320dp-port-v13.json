@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.musicapp-mergeDebugResources-50:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Adel\\.gradle\\caches\\9.1.0\\transforms\\651cdf3c0f0a06e247ccdc99ba10199f\\workspace\\transformed\\material-1.12.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                }
+            ]
+        }
+    ]
+}

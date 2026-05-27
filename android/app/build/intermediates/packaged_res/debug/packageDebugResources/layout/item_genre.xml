@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/genreCard"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        android:id="@+id/cvGenre">
+
+        <!-- Genre background color set programmatically -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/genreBackground">
+
+            <!-- Genre name -->
+            <TextView
+                android:id="@+id/tvGenreName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:padding="12dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Music note icon (decorative) -->
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end|bottom"
+                android:src="@drawable/ic_music_note"
+                app:tint="#33FFFFFF"
+                android:layout_margin="8dp"
+                android:translationX="8dp"
+                android:translationY="8dp"
+                android:contentDescription="Music" />
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginEnd="16dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Album Cover with listen count overlay -->
+    <FrameLayout
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/ivCover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/placeholder_album"
+            android:scaleType="centerCrop" />
+
+        <!-- Listen count badge -->
+        <TextView
+            android:id="@+id/tvListenCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:background="@drawable/bg_badge"
+            android:padding="4dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/tvArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+</LinearLayout>

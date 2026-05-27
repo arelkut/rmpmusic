@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingBottom="40dp">
+
+        <!-- Back Button -->
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_arrow_back"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Back"
+            app:tint="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Logo -->
+        <FrameLayout
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_logo_gradient" />
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_music_note"
+                android:contentDescription="@string/app_name"
+                app:tint="@color/white" />
+        </FrameLayout>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/create_account"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/join_us_today"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Name Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Name Input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilName"
+            style="@style/Widget.MusicApp.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="@string/hint_name"
+                android:inputType="textPersonName|textCapWords"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="12dp"
+                android:paddingStart="16dp"
+                android:background="@drawable/bg_input_field"
+                android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Email Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Email Input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilEmail"
+            style="@style/Widget.MusicApp.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="12dp"
+                android:paddingStart="16dp"
+                android:background="@drawable/bg_input_field"
+                android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Password Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Password Input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPassword"
+            style="@style/Widget.MusicApp.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/text_hint"
+            android:layout_marginBottom="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="12dp"
+                android:paddingStart="16dp"
+                android:background="@drawable/bg_input_field"
+                android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Confirm Password Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_password"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Confirm Password Input -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilConfirmPassword"
+            style="@style/Widget.MusicApp.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/text_hint"
+            android:layout_marginBottom="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:hint="@string/hint_confirm_password"
+                android:inputType="textPassword"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_hint"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="12dp"
+                android:paddingStart="16dp"
+                android:background="@drawable/bg_input_field"
+                android:imeOptions="actionDone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Terms Checkbox -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <CheckBox
+                android:id="@+id/cbTerms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/purple_primary" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/agree_terms"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tvTerms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/terms_of_use"
+                    android:textColor="@color/purple_primary"
+                    android:textSize="13sp"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" @string/and "
+                    android:textColor="@color/text_secondary"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tvPrivacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/privacy_policy"
+                    android:textColor="@color/purple_primary"
+                    android:textSize="13sp"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Register Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegister"
+            style="@style/Widget.MusicApp.Button"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/register"
+            android:layout_marginBottom="24dp" />
+
+        <!-- OR Divider -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/divider" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/or"
+                android:textColor="@color/text_secondary"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/divider" />
+        </LinearLayout>
+
+        <!-- Google Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGoogle"
+            style="@style/Widget.MusicApp.Button.Outline"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/continue_google"
+            android:drawableStart="@drawable/ic_google"
+            android:drawablePadding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Facebook Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFacebook"
+            style="@style/Widget.MusicApp.Button.Outline"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/continue_facebook"
+            android:drawableStart="@drawable/ic_facebook"
+            android:drawablePadding="12dp"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Login Link -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_have_account"
+                android:textColor="@color/text_secondary"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:textColor="@color/purple_primary"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

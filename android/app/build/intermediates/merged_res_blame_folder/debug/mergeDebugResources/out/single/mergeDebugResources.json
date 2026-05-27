@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.musicapp-debug-52:/layout_activity_login.xml.flat",
+        "source": "com.musicapp-main-54:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_activity_player.xml.flat",
+        "source": "com.musicapp-main-54:/layout/activity_player.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_item_playlist_grid.xml.flat",
+        "source": "com.musicapp-main-54:/layout/item_playlist_grid.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_fragment_profile.xml.flat",
+        "source": "com.musicapp-main-54:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_fragment_my_music.xml.flat",
+        "source": "com.musicapp-main-54:/layout/fragment_my_music.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_item_album_trending.xml.flat",
+        "source": "com.musicapp-main-54:/layout/item_album_trending.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_fragment_home.xml.flat",
+        "source": "com.musicapp-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_item_track_numbered.xml.flat",
+        "source": "com.musicapp-main-54:/layout/item_track_numbered.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_item_track_recent.xml.flat",
+        "source": "com.musicapp-main-54:/layout/item_track_recent.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_layout_mini_player.xml.flat",
+        "source": "com.musicapp-main-54:/layout/layout_mini_player.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_activity_main.xml.flat",
+        "source": "com.musicapp-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_activity_forgot_password.xml.flat",
+        "source": "com.musicapp-main-54:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_item_playlist.xml.flat",
+        "source": "com.musicapp-main-54:/layout/item_playlist.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_activity_register.xml.flat",
+        "source": "com.musicapp-main-54:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_fragment_search.xml.flat",
+        "source": "com.musicapp-main-54:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_item_genre.xml.flat",
+        "source": "com.musicapp-main-54:/layout/item_genre.xml"
+    }
+]

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_card">#1A1A1A</color>
+    <color name="bg_dark">#0A0A0A</color>
+    <color name="bg_gradient_bottom">#0A0A0A</color>
+    <color name="bg_gradient_top">#1A0A2E</color>
+    <color name="bg_input">#1E1E1E</color>
+    <color name="bg_surface">#141414</color>
+    <color name="black">#000000</color>
+    <color name="bottom_nav_bg">#111111</color>
+    <color name="bottom_nav_selected">#9B30FF</color>
+    <color name="bottom_nav_unselected">#666666</color>
+    <color name="divider">#2A2A2A</color>
+    <color name="genre_classical">#FFA500</color>
+    <color name="genre_country">#FFD700</color>
+    <color name="genre_edm">#7B5EA7</color>
+    <color name="genre_hiphop">#FF1493</color>
+    <color name="genre_indie">#00BFA5</color>
+    <color name="genre_jazz">#4169E1</color>
+    <color name="genre_pop">#00C851</color>
+    <color name="genre_rap">#9B30FF</color>
+    <color name="genre_rock">#FF0000</color>
+    <color name="genre_soul">#FF6600</color>
+    <color name="gradient_end">#FF3DFF</color>
+    <color name="gradient_start">#9B30FF</color>
+    <color name="icon_active">#9B30FF</color>
+    <color name="icon_default">#888888</color>
+    <color name="pink_accent">#FF3DFF</color>
+    <color name="purple_dark">#7B1FCC</color>
+    <color name="purple_light">#C070FF</color>
+    <color name="purple_primary">#9B30FF</color>
+    <color name="stat_card_1_end">#1A0A3E</color>
+    <color name="stat_card_1_start">#2D1B69</color>
+    <color name="stat_card_2_end">#3E0A1F</color>
+    <color name="stat_card_2_start">#6B0F3C</color>
+    <color name="stat_card_3_end">#0A0A2E</color>
+    <color name="stat_card_3_start">#1A1A4E</color>
+    <color name="stat_card_4_end">#051F0A</color>
+    <color name="stat_card_4_start">#0A3E1A</color>
+    <color name="status_bar">#0A0A0A</color>
+    <color name="text_hint">#666666</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_purple">#9B30FF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <drawable name="ic_music_note"/>
+    <drawable name="ic_pause"/>
+    <drawable name="ic_play"/>
+    <drawable name="ic_skip_next"/>
+    <drawable name="ic_skip_previous"/>
+    <string name="account">Аккаунт</string>
+    <string name="agree_terms">Я согласен с </string>
+    <string name="already_have_account">Уже есть аккаунт? </string>
+    <string name="and">и</string>
+    <string name="app_name">Music App</string>
+    <string name="audio_quality">Качество звука</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="contact_support">Связаться с поддержкой</string>
+    <string name="continue_facebook">Продолжить с Facebook</string>
+    <string name="continue_google">Продолжить с Google</string>
+    <string name="create_account">Создать аккаунт</string>
+    <string name="data_viewing">Просмотр данных</string>
+    <string name="devices">Устройства</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="email">Email</string>
+    <string name="email_address">Email адрес</string>
+    <string name="email_hint_register">Введите email, который вы использовали при регистрации</string>
+    <string name="error_accept_terms">Примите условия использования</string>
+    <string name="error_empty_fields">Заполните все поля</string>
+    <string name="error_invalid_email">Введите корректный email</string>
+    <string name="error_network">Ошибка сети. Проверьте подключение.</string>
+    <string name="error_password_short">Пароль должен быть не менее 8 символов</string>
+    <string name="error_passwords_not_match">Пароли не совпадают</string>
+    <string name="error_unknown">Произошла ошибка</string>
+    <string name="favorite_genre">Любимый жанр</string>
+    <string name="favorite_tracks">Любимых треков</string>
+    <string name="favorites">Любимые</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="forgot_password_subtitle">Не волнуйтесь, мы поможем вам его восстановить</string>
+    <string name="forgot_password_title">Забыли пароль?</string>
+    <string name="general_settings">Общие настройки</string>
+    <string name="hint_confirm_password">Повторите пароль</string>
+    <string name="hint_email">ivan@example.com</string>
+    <string name="hint_name">Иван Петров</string>
+    <string name="hint_password">Минимум 8 символов</string>
+    <string name="hint_repeat_password">•••••••••</string>
+    <string name="history">История</string>
+    <string name="join_us_today">Присоединяйтесь к нам сегодня</string>
+    <string name="listen_favorite_music">Слушайте любимую музыку</string>
+    <string name="listen_time">Время прослушивания</string>
+    <string name="login">Войти</string>
+    <string name="login_to_continue">Войдите, чтобы продолжить</string>
+    <string name="memory">Память</string>
+    <string name="my_music">Моя музыка</string>
+    <string name="name">Имя</string>
+    <string name="nav_home">Главная</string>
+    <string name="nav_my_music">Моя музыка</string>
+    <string name="nav_profile">Профиль</string>
+    <string name="nav_search">Поиск</string>
+    <string name="need_help">Нужна помощь?</string>
+    <string name="next">Следующий</string>
+    <string name="no_account">Нет аккаунта? </string>
+    <string name="or">или</string>
+    <string name="password">Пароль</string>
+    <string name="pause">Пауза</string>
+    <string name="play">Воспроизвести</string>
+    <string name="playlists">Плейлисты</string>
+    <string name="popular_genres">Популярные жанры</string>
+    <string name="popular_queries">Популярные запросы</string>
+    <string name="previous">Предыдущий</string>
+    <string name="privacy_policy">политикой конфиденциальности</string>
+    <string name="recently_added">Недавно добавленные</string>
+    <string name="recently_played">Недавно прослушанные</string>
+    <string name="recommended_playlists">Рекомендованные плейлисты</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="remembered_password">Вспомнили пароль? </string>
+    <string name="repeat">Повторить</string>
+    <string name="search">Поиск</string>
+    <string name="search_hint">Треки, исполнители или жанры</string>
+    <string name="select_language">Выбрать язык</string>
+    <string name="send_instructions">Отправить инструкции</string>
+    <string name="settings_title">Настройки</string>
+    <string name="shuffle">Перемешать</string>
+    <string name="social_networks">Социальные сети</string>
+    <string name="sound_quality">Качество звука</string>
+    <string name="statistics">Статистика</string>
+    <string name="terms_of_use">условиями использования</string>
+    <string name="top_listeners">Среди слушателей</string>
+    <string name="track">трека</string>
+    <string name="tracks">треков</string>
+    <string name="tracks_played">Прослушано треков</string>
+    <string name="trending">В тренде</string>
+    <string name="view_profile">Посмотреть профиль</string>
+    <string name="voice_assistant">Голосовой помощник</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="welcome_back">Добро пожаловать</string>
+    <style name="Theme.MusicApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/pink_accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.MusicApp.Player" parent="Theme.MusicApp">
+        <item name="android:windowBackground">@color/bg_dark</item>
+    </style>
+    <style name="Theme.MusicApp.Splash" parent="Theme.MusicApp">
+        <item name="android:windowBackground">@color/bg_dark</item>
+    </style>
+    <style name="Widget.MusicApp.BottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="android:background">@color/bg_card</item>
+    </style>
+    <style name="Widget.MusicApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/purple_primary</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+    <style name="Widget.MusicApp.Button.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/divider</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/bg_card</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+    <style name="Widget.MusicApp.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/bg_card</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+    <style name="Widget.MusicApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/bg_input</item>
+        <item name="boxStrokeColor">@color/divider</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+</resources>
