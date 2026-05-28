@@ -45,11 +45,6 @@
     <color name="transparent">#00000000</color>
     <color name="white">#FFFFFF</color>
     <color name="white_70">#B3FFFFFF</color>
-    <drawable name="ic_music_note"/>
-    <drawable name="ic_pause"/>
-    <drawable name="ic_play"/>
-    <drawable name="ic_skip_next"/>
-    <drawable name="ic_skip_previous"/>
     <string name="account">Аккаунт</string>
     <string name="agree_terms">Я согласен с </string>
     <string name="already_have_account">Уже есть аккаунт? </string>

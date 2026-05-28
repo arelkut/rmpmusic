@@ -227,9 +227,9 @@ public class MusicService extends Service {
                 .addAction(isPlaying() ? R.drawable.ic_pause : R.drawable.ic_play,
                         isPlaying() ? "Pause" : "Play", pausePi)
                 .addAction(R.drawable.ic_skip_next, "Next", nextPi)
-                .setStyle(new MediaStyle()
-                        .setShowActionsInCompactView(0, 1, 2))
-                .setOngoing(isPlaying())
+                //.setStyle(new MediaStyle()
+                     //   .setShowActionsInCompactView(0, 1, 2))
+              //  .setOngoing(isPlaying())
                 .build();
     }
 
@@ -259,9 +259,5 @@ public class MusicService extends Service {
         void onStateChanged(boolean isPlaying);
     }
 
-    private class MediaStyle {
-        public NotificationCompat.Style setShowActionsInCompactView(int i, int i1, int i2) {
-            return null;
-        }
-    }
+
 }

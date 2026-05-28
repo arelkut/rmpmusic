@@ -1,66 +1,274 @@
 [
     {
-        "merged": "com.musicapp-debug-52:/layout_activity_login.xml.flat",
-        "source": "com.musicapp-main-54:/layout/activity_login.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_skip_previous.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_skip_previous.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_activity_player.xml.flat",
-        "source": "com.musicapp-main-54:/layout/activity_player.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_award.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_award.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_item_playlist_grid.xml.flat",
-        "source": "com.musicapp-main-54:/layout/item_playlist_grid.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_fragment_profile.xml.flat",
-        "source": "com.musicapp-main-54:/layout/fragment_profile.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\color_bottom_nav_selector.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\color\\bottom_nav_selector.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_fragment_my_music.xml.flat",
-        "source": "com.musicapp-main-54:/layout/fragment_my_music.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_item_album_trending.xml.flat",
-        "source": "com.musicapp-main-54:/layout/item_album_trending.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_bg_home_gradient.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\bg_home_gradient.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_fragment_home.xml.flat",
-        "source": "com.musicapp-main-54:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_person.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_item_track_numbered.xml.flat",
-        "source": "com.musicapp-main-54:/layout/item_track_numbered.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_item_playlist.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\item_playlist.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_item_track_recent.xml.flat",
-        "source": "com.musicapp-main-54:/layout/item_track_recent.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_layout_mini_player.xml.flat",
-        "source": "com.musicapp-main-54:/layout/layout_mini_player.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_activity_main.xml.flat",
-        "source": "com.musicapp-main-54:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_lock.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_activity_forgot_password.xml.flat",
-        "source": "com.musicapp-main-54:/layout/activity_forgot_password.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_item_playlist.xml.flat",
-        "source": "com.musicapp-main-54:/layout/item_playlist.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_history.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_activity_register.xml.flat",
-        "source": "com.musicapp-main-54:/layout/activity_register.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_music_note.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_music_note.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_fragment_search.xml.flat",
-        "source": "com.musicapp-main-54:/layout/fragment_search.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.musicapp-debug-52:/layout_item_genre.xml.flat",
-        "source": "com.musicapp-main-54:/layout/item_genre.xml"
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_layout_mini_player.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\layout_mini_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_bg_play_button.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\bg_play_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_shuffle.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_shuffle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_repeat.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_repeat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_bg_input_field.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\bg_input_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_item_track_recent.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\item_track_recent.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_item_album_trending.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\item_album_trending.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_trending.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_trending.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_item_track_numbered.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\item_track_numbered.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_placeholder_album.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\placeholder_album.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_repeat_one.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_repeat_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_more.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_facebook.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_facebook.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_bg_play_button_small.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\bg_play_button_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_item_genre.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\item_genre.xml"
+    },
+    {
+        "merged": "com.musicapp-debug-52:/layout_activity_splash.xml.flat",
+        "source": "com.musicapp-main-54:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_pause.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_bg_search_field.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\bg_search_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_bg_logo_gradient.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\bg_logo_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_skip_next.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_skip_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_bg_badge.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\bg_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_activity_player.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\activity_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_item_track.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\item_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_fragment_my_music.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\fragment_my_music.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_item_playlist_grid.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\item_playlist_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_heart_filled.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_heart_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_item_album.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\item_album.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_heart.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_heart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_bg_card_dark.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\bg_card_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_google.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\drawable_ic_play.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-debug-52:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\activity_register.xml"
     }
 ]

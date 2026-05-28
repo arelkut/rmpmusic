@@ -1,0 +1,50 @@
+# ========== ИСТОРИЯ И IDE ==========
+.history/
+.idea/
+.vscode/
+
+# ========== ANDROID ==========
+android/.gradle/
+android/build/
+android/app/build/
+android/*/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/captures/
+android/*.apk
+android/*.aab
+android/.DS_Store
+
+# ========== BACKEND ==========
+backend/__pycache__/
+backend/*/__pycache__/
+backend/venv/
+backend/.venv/
+backend/.env
+backend/static/
+backend/*.pyc
+backend/.pytest_cache/
+backend/.coverage
+
+# ========== ВЕБ (React/Node) ==========
+src/
+node_modules/
+package-lock.json
+dist/
+build/
+.DS_Store
+*.log
+
+# ========== БАЗА ДАННЫХ ==========
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+!database/*.sql
+
+# ========== ОБЩИЕ ==========
+.DS_Store
+Thumbs.db
+*.log
+.env
+*.tmp
