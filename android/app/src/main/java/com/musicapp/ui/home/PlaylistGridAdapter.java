@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.musicapp.R;
 import com.musicapp.model.PlaylistOut;
+import com.musicapp.network.ApiClient;
 
 import java.util.List;
 
@@ -41,12 +42,17 @@ public class PlaylistGridAdapter extends RecyclerView.Adapter<PlaylistGridAdapte
     public void onBindViewHolder(@NonNull PlaylistViewHolder holder, int position) {
         PlaylistOut playlist = playlists.get(position);
         holder.tvName.setText(playlist.name);
-        holder.tvTrackCount.setText(playlist.trackCount + " tracks");
+        holder.tvTrackCount.setText(playlist.trackCount + " треков");
+
+        String coverUrl = null;
+        if (playlist.coverUrl != null && !playlist.coverUrl.isEmpty()) {
+            coverUrl = ApiClient.BASE_URL.replaceAll("/$", "") + playlist.coverUrl;
+        }
 
         Glide.with(holder.itemView.getContext())
-                .load(playlist.coverUrl)
-                .placeholder(R.drawable.ic_launcher_background)
-                .error(R.drawable.ic_launcher_background)
+                .load(coverUrl)
+                .placeholder(R.drawable.placeholder_album)
+                .error(R.drawable.placeholder_album)
                 .into(holder.ivCover);
 
         holder.itemView.setOnClickListener(v -> {

@@ -82,17 +82,20 @@ int drawable placeholder_album 0x0
 int id bottomNavigation 0x0
 int id btnAddPlaylist 0x0
 int id btnBack 0x0
+int id btnCancelEdit 0x0
 int id btnEditProfile 0x0
 int id btnFacebook 0x0
 int id btnGoogle 0x0
 int id btnLike 0x0
 int id btnLogin 0x0
+int id btnLogout 0x0
 int id btnMore 0x0
 int id btnNext 0x0
 int id btnPlayPause 0x0
 int id btnPrevious 0x0
 int id btnRegister 0x0
 int id btnRepeat 0x0
+int id btnSaveEdit 0x0
 int id btnSendInstructions 0x0
 int id btnShuffle 0x0
 int id cardFavorites 0x0
@@ -100,6 +103,8 @@ int id cardHistory 0x0
 int id cbTerms 0x0
 int id cvGenre 0x0
 int id etConfirmPassword 0x0
+int id etEditBio 0x0
+int id etEditName 0x0
 int id etEmail 0x0
 int id etName 0x0
 int id etPassword 0x0
@@ -109,6 +114,7 @@ int id genreCard 0x0
 int id ivAlbumCover 0x0
 int id ivAvatar 0x0
 int id ivCover 0x0
+int id ivMyMusicAvatar 0x0
 int id ivPlaylistCover 0x0
 int id ivTrackCover 0x0
 int id layoutDefault 0x0
@@ -144,6 +150,8 @@ int id rvTrending 0x0
 int id scrollView 0x0
 int id seekBar 0x0
 int id tilConfirmPassword 0x0
+int id tilEditBio 0x0
+int id tilEditName 0x0
 int id tilEmail 0x0
 int id tilName 0x0
 int id tilPassword 0x0
@@ -166,6 +174,8 @@ int id tvHistoryCount 0x0
 int id tvListenCount 0x0
 int id tvListenHours 0x0
 int id tvLogin 0x0
+int id tvMyMusicDisplayName 0x0
+int id tvMyMusicUsername 0x0
 int id tvNumber 0x0
 int id tvPlaylistCount 0x0
 int id tvPlaylistName 0x0
@@ -188,6 +198,7 @@ int layout activity_main 0x0
 int layout activity_player 0x0
 int layout activity_register 0x0
 int layout activity_splash 0x0
+int layout dialog_edit_profile 0x0
 int layout fragment_home 0x0
 int layout fragment_my_music 0x0
 int layout fragment_profile 0x0
@@ -292,6 +303,7 @@ int string voice_assistant 0x0
 int string welcome 0x0
 int string welcome_back 0x0
 int style Theme_MusicApp 0x0
+int style Theme_MusicApp_Dialog 0x0
 int style Theme_MusicApp_Player 0x0
 int style Theme_MusicApp_Splash 0x0
 int style Widget_MusicApp_BottomSheet 0x0

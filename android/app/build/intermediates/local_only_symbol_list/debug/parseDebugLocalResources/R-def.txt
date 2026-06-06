@@ -84,17 +84,20 @@ drawable placeholder_album
 id bottomNavigation
 id btnAddPlaylist
 id btnBack
+id btnCancelEdit
 id btnEditProfile
 id btnFacebook
 id btnGoogle
 id btnLike
 id btnLogin
+id btnLogout
 id btnMore
 id btnNext
 id btnPlayPause
 id btnPrevious
 id btnRegister
 id btnRepeat
+id btnSaveEdit
 id btnSendInstructions
 id btnShuffle
 id cardFavorites
@@ -102,6 +105,8 @@ id cardHistory
 id cbTerms
 id cvGenre
 id etConfirmPassword
+id etEditBio
+id etEditName
 id etEmail
 id etName
 id etPassword
@@ -111,6 +116,7 @@ id genreCard
 id ivAlbumCover
 id ivAvatar
 id ivCover
+id ivMyMusicAvatar
 id ivPlaylistCover
 id ivTrackCover
 id layoutDefault
@@ -146,6 +152,8 @@ id rvTrending
 id scrollView
 id seekBar
 id tilConfirmPassword
+id tilEditBio
+id tilEditName
 id tilEmail
 id tilName
 id tilPassword
@@ -168,6 +176,8 @@ id tvHistoryCount
 id tvListenCount
 id tvListenHours
 id tvLogin
+id tvMyMusicDisplayName
+id tvMyMusicUsername
 id tvNumber
 id tvPlaylistCount
 id tvPlaylistName
@@ -190,6 +200,7 @@ layout activity_main
 layout activity_player
 layout activity_register
 layout activity_splash
+layout dialog_edit_profile
 layout fragment_home
 layout fragment_my_music
 layout fragment_profile
@@ -294,6 +305,7 @@ string voice_assistant
 string welcome
 string welcome_back
 style Theme.MusicApp
+style Theme.MusicApp.Dialog
 style Theme.MusicApp.Player
 style Theme.MusicApp.Splash
 style Widget.MusicApp.BottomSheet

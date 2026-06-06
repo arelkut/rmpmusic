@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\activity_forgot_password.xml"
     },
     {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-mergeDebugResources-51:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\activity_splash.xml"
+    },
+    {
         "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-mergeDebugResources-51:\\layout\\item_album_trending.xml",
         "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\item_album_trending.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-mergeDebugResources-51:\\layout\\item_album.xml",
         "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\item_album.xml"
+    },
+    {
+        "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-mergeDebugResources-51:\\layout\\dialog_edit_profile.xml",
+        "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\dialog_edit_profile.xml"
     },
     {
         "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-mergeDebugResources-51:\\layout\\fragment_home.xml",
@@ -64,12 +72,12 @@
         "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.musicapp-mergeDebugResources-51:/layout/activity_splash.xml",
-        "source": "com.musicapp-main-54:/layout/activity_splash.xml"
-    },
-    {
         "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-mergeDebugResources-51:\\layout\\activity_player.xml",
         "source": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-main-54:\\layout\\activity_player.xml"
+    },
+    {
+        "merged": "com.musicapp-mergeDebugResources-51:/layout/fragment_profile.xml",
+        "source": "com.musicapp-main-54:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\Adel\\.gradle\\daemon\\9.1.0\\com.musicapp-mergeDebugResources-51:\\layout\\layout_mini_player.xml",

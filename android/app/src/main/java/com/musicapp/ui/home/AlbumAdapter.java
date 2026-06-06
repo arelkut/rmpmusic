@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.musicapp.R;
 import com.musicapp.model.AlbumOut;
+import com.musicapp.network.ApiClient;
 
 import java.util.List;
 
@@ -43,10 +44,15 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.AlbumViewHol
         holder.tvTitle.setText(album.title);
         holder.tvArtist.setText(album.artistName);
 
+        String coverUrl = null;
+        if (album.coverUrl != null && !album.coverUrl.isEmpty()) {
+            coverUrl = ApiClient.BASE_URL.replaceAll("/$", "") + album.coverUrl;
+        }
+
         Glide.with(holder.itemView.getContext())
-                .load(album.coverUrl)
-                .placeholder(R.drawable.ic_launcher_background)
-                .error(R.drawable.ic_launcher_background)
+                .load(coverUrl)
+                .placeholder(R.drawable.placeholder_album)
+                .error(R.drawable.placeholder_album)
                 .into(holder.ivCover);
 
         holder.itemView.setOnClickListener(v -> {

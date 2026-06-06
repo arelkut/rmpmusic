@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.musicapp.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -32,6 +33,9 @@ public final class FragmentMyMusicBinding implements ViewBinding {
   public final CardView cardHistory;
 
   @NonNull
+  public final CircleImageView ivMyMusicAvatar;
+
+  @NonNull
   public final RecyclerView rvPlaylists;
 
   @NonNull
@@ -43,19 +47,29 @@ public final class FragmentMyMusicBinding implements ViewBinding {
   @NonNull
   public final TextView tvHistoryCount;
 
+  @NonNull
+  public final TextView tvMyMusicDisplayName;
+
+  @NonNull
+  public final TextView tvMyMusicUsername;
+
   private FragmentMyMusicBinding(@NonNull LinearLayout rootView,
       @NonNull ImageButton btnAddPlaylist, @NonNull CardView cardFavorites,
-      @NonNull CardView cardHistory, @NonNull RecyclerView rvPlaylists,
-      @NonNull RecyclerView rvRecentlyAdded, @NonNull TextView tvFavoritesCount,
-      @NonNull TextView tvHistoryCount) {
+      @NonNull CardView cardHistory, @NonNull CircleImageView ivMyMusicAvatar,
+      @NonNull RecyclerView rvPlaylists, @NonNull RecyclerView rvRecentlyAdded,
+      @NonNull TextView tvFavoritesCount, @NonNull TextView tvHistoryCount,
+      @NonNull TextView tvMyMusicDisplayName, @NonNull TextView tvMyMusicUsername) {
     this.rootView = rootView;
     this.btnAddPlaylist = btnAddPlaylist;
     this.cardFavorites = cardFavorites;
     this.cardHistory = cardHistory;
+    this.ivMyMusicAvatar = ivMyMusicAvatar;
     this.rvPlaylists = rvPlaylists;
     this.rvRecentlyAdded = rvRecentlyAdded;
     this.tvFavoritesCount = tvFavoritesCount;
     this.tvHistoryCount = tvHistoryCount;
+    this.tvMyMusicDisplayName = tvMyMusicDisplayName;
+    this.tvMyMusicUsername = tvMyMusicUsername;
   }
 
   @Override
@@ -103,6 +117,12 @@ public final class FragmentMyMusicBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.ivMyMusicAvatar;
+      CircleImageView ivMyMusicAvatar = ViewBindings.findChildViewById(rootView, id);
+      if (ivMyMusicAvatar == null) {
+        break missingId;
+      }
+
       id = R.id.rvPlaylists;
       RecyclerView rvPlaylists = ViewBindings.findChildViewById(rootView, id);
       if (rvPlaylists == null) {
@@ -127,8 +147,21 @@ public final class FragmentMyMusicBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvMyMusicDisplayName;
+      TextView tvMyMusicDisplayName = ViewBindings.findChildViewById(rootView, id);
+      if (tvMyMusicDisplayName == null) {
+        break missingId;
+      }
+
+      id = R.id.tvMyMusicUsername;
+      TextView tvMyMusicUsername = ViewBindings.findChildViewById(rootView, id);
+      if (tvMyMusicUsername == null) {
+        break missingId;
+      }
+
       return new FragmentMyMusicBinding((LinearLayout) rootView, btnAddPlaylist, cardFavorites,
-          cardHistory, rvPlaylists, rvRecentlyAdded, tvFavoritesCount, tvHistoryCount);
+          cardHistory, ivMyMusicAvatar, rvPlaylists, rvRecentlyAdded, tvFavoritesCount,
+          tvHistoryCount, tvMyMusicDisplayName, tvMyMusicUsername);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

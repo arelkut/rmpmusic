@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity
 
     private void bindMusicService() {
         Intent intent = new Intent(this, MusicService.class);
+        startService(intent);   // сервис живёт независимо от привязки
         bindService(intent, serviceConnection, BIND_AUTO_CREATE);
     }
 

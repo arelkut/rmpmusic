@@ -86,13 +86,14 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Edit Profile Button -->
-        <com.google.android.material.button.MaterialButton
+        <!-- Edit Profile Button - исправлено: обычная кнопка на всю ширину -->
+        <Button
             android:id="@+id/btnEditProfile"
-            style="@style/Widget.MusicApp.Button"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="@string/edit_profile"
+            android:text="Редактировать профиль"
+            android:textColor="@color/white"
+            android:background="@color/purple_primary"
             android:layout_marginBottom="28dp" />
 
         <!-- Statistics Title -->
@@ -372,11 +373,18 @@
             android:clickable="true"
             android:focusable="true">
 
-            <ImageView android:layout_width="20dp" android:layout_height="20dp"
-                android:src="@drawable/ic_settings" app:tint="@color/text_secondary"
-                android:layout_marginEnd="12dp" android:contentDescription="Settings"/>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="@string/general_settings" android:textColor="@color/text_primary"
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_settings"
+                app:tint="@color/text_secondary"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Settings"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/general_settings"
+                android:textColor="@color/text_primary"
                 android:textSize="14sp" />
         </LinearLayout>
 
@@ -393,11 +401,18 @@
             android:clickable="true"
             android:focusable="true">
 
-            <ImageView android:layout_width="20dp" android:layout_height="20dp"
-                android:src="@drawable/ic_person" app:tint="@color/text_secondary"
-                android:layout_marginEnd="12dp" android:contentDescription="Account"/>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="@string/account" android:textColor="@color/text_primary"
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_person"
+                app:tint="@color/text_secondary"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Account"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account"
+                android:textColor="@color/text_primary"
                 android:textSize="14sp" />
         </LinearLayout>
 
@@ -414,13 +429,30 @@
             android:clickable="true"
             android:focusable="true">
 
-            <ImageView android:layout_width="20dp" android:layout_height="20dp"
-                android:src="@drawable/ic_music_note" app:tint="@color/text_secondary"
-                android:layout_marginEnd="12dp" android:contentDescription="Audio"/>
-            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:text="@string/audio_quality" android:textColor="@color/text_primary"
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_music_note"
+                app:tint="@color/text_secondary"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Audio"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/audio_quality"
+                android:textColor="@color/text_primary"
                 android:textSize="14sp" />
         </LinearLayout>
+
+        <!-- Logout Button - просто текст, без иконки -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Выйти"
+            android:textColor="@color/white"
+            android:background="@color/genre_rap"
+            android:layout_marginTop="16dp" />
 
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

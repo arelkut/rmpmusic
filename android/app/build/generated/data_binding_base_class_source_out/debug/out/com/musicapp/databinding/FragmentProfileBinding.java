@@ -4,6 +4,7 @@ package com.musicapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -11,7 +12,6 @@ import androidx.annotation.Nullable;
 import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.google.android.material.button.MaterialButton;
 import com.musicapp.R;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
@@ -23,7 +23,10 @@ public final class FragmentProfileBinding implements ViewBinding {
   private final NestedScrollView rootView;
 
   @NonNull
-  public final MaterialButton btnEditProfile;
+  public final Button btnEditProfile;
+
+  @NonNull
+  public final Button btnLogout;
 
   @NonNull
   public final CircleImageView ivAvatar;
@@ -67,8 +70,8 @@ public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
   public final TextView tvUsername;
 
-  private FragmentProfileBinding(@NonNull NestedScrollView rootView,
-      @NonNull MaterialButton btnEditProfile, @NonNull CircleImageView ivAvatar,
+  private FragmentProfileBinding(@NonNull NestedScrollView rootView, @NonNull Button btnEditProfile,
+      @NonNull Button btnLogout, @NonNull CircleImageView ivAvatar,
       @NonNull LinearLayout rowAccount, @NonNull LinearLayout rowAudioQuality,
       @NonNull LinearLayout rowGeneralSettings, @NonNull TextView tvDisplayName,
       @NonNull TextView tvFavoriteCount, @NonNull TextView tvFavoriteGenre,
@@ -78,6 +81,7 @@ public final class FragmentProfileBinding implements ViewBinding {
       @NonNull TextView tvUsername) {
     this.rootView = rootView;
     this.btnEditProfile = btnEditProfile;
+    this.btnLogout = btnLogout;
     this.ivAvatar = ivAvatar;
     this.rowAccount = rowAccount;
     this.rowAudioQuality = rowAudioQuality;
@@ -122,8 +126,14 @@ public final class FragmentProfileBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnEditProfile;
-      MaterialButton btnEditProfile = ViewBindings.findChildViewById(rootView, id);
+      Button btnEditProfile = ViewBindings.findChildViewById(rootView, id);
       if (btnEditProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.btnLogout;
+      Button btnLogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogout == null) {
         break missingId;
       }
 
@@ -211,8 +221,8 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfileBinding((NestedScrollView) rootView, btnEditProfile, ivAvatar,
-          rowAccount, rowAudioQuality, rowGeneralSettings, tvDisplayName, tvFavoriteCount,
+      return new FragmentProfileBinding((NestedScrollView) rootView, btnEditProfile, btnLogout,
+          ivAvatar, rowAccount, rowAudioQuality, rowGeneralSettings, tvDisplayName, tvFavoriteCount,
           tvFavoriteGenre, tvGenrePercent, tvListenHours, tvPlaylistCount, tvTopPercent,
           tvTrackCount, tvTracksPlayed, tvUsername);
     }
